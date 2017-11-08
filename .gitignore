@@ -1,0 +1,11 @@
+.idea/
+.svn
+.DS_Store
+Thumbs.db
+*.xcuserstate
+*.xcuserdatad
+*.iml
+
+ios/Podfile.lock
+ios/Pods
+ios/Projects/fastlane
