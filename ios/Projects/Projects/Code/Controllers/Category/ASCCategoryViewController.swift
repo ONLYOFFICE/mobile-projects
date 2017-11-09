@@ -194,38 +194,40 @@ class ASCCategoryViewController: UIViewController {
     // MARK: - Navigation
 
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-//        if identifier == "sequeUserProfile" {
-//            ASCAccessManager.shared.readUserInfo({ success, error in
-//                if let localError = error {
-//                    if ASCApi.errorPaymentRequired == localError {
-//                        ASCBanner.shared.showError(title: NSLocalizedString("Payment required", comment: ""), message: NSLocalizedString("The paid period is over", comment: ""))
-//                    }
-//                }
-//            })
-//
-//            if let _ = ASCAccessManager.shared.user {
-//                return true
-//            } else {
-//                if let _ = UserDefaults.standard.string(forKey: ASCConstants.SettingsKeys.userName) {
-//                    return true
-//                }
-//
-//                let alertController = UIAlertController(title: NSLocalizedString("Error", comment:""), message: NSLocalizedString("No information about the user profile.", comment: ""), preferredStyle: .alert)
-//
-//                alertController.addAction(UIAlertAction(title: NSLocalizedString("Logout", comment: "Button title"), style: .destructive, handler: { (action) in
-//                    ASCUserProfileViewController.logout()
-//                }))
-//
-//                alertController.addAction(UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel, handler: { (action) in
-//                    //
-//                }))
-//
-//                alertController.view.tintColor = view.tintColor
-//                present(alertController, animated: true, completion: nil)
-//
-//                return false
-//            }
-//        }
+        if identifier == "sequeUserProfile" {
+            ASCAccessManager.shared.readUserInfo({ success, error in
+                if let localError = error {
+                    if ASCApi.errorPaymentRequired == localError {
+                        ASCBanner.shared.showError(title: NSLocalizedString("Payment required", comment: ""), message: NSLocalizedString("The paid period is over", comment: ""))
+                    }
+                }
+            })
+
+            if nil != ASCAccessManager.shared.user {
+                return true
+            } else {
+                if nil != UserDefaults.standard.string(forKey: ASCConstants.SettingsKeys.userName) {
+                    return true
+                }
+
+                let alertController = UIAlertController(title: NSLocalizedString("Error", comment:""),
+                                                        message: NSLocalizedString("No information about the user profile.", comment: ""),
+                                                        preferredStyle: .alert)
+
+                alertController.addAction(UIAlertAction(title: NSLocalizedString("Logout", comment: "Button title"), style: .destructive, handler: { (action) in
+                    ASCUserProfileViewController.logout()
+                }))
+
+                alertController.addAction(UIAlertAction(title: NSLocalizedString("Cancel", comment: ""), style: .cancel, handler: { (action) in
+                    //
+                }))
+
+                alertController.view.tintColor = view.tintColor
+                present(alertController, animated: true, completion: nil)
+
+                return false
+            }
+        }
 
         return true
     }
@@ -278,7 +280,8 @@ class ASCCategoryViewController: UIViewController {
             ASCAccessManager.shared.readUserInfo({ [weak self] success, error in
                 if let localError = error {
                     if ASCApi.errorPaymentRequired == localError {
-                        ASCBanner.shared.showError(title: NSLocalizedString("Payment required", comment: ""), message: NSLocalizedString("The paid period is over", comment: ""))
+                        ASCBanner.shared.showError(title: NSLocalizedString("Payment required", comment: ""),
+                                                   message: NSLocalizedString("The paid period is over", comment: ""))
                     }
                 }
 

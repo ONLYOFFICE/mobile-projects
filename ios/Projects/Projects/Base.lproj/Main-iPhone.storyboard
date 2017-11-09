@@ -360,7 +360,7 @@
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bPR-d3-JL1">
                             <rect key="frame" x="0.0" y="0.0" width="370" height="77"/>
                             <connections>
-                                <segue destination="NMq-vs-RTU" kind="show" id="Sqj-tq-JoC"/>
+                                <segue destination="NMq-vs-RTU" kind="show" identifier="sequeUserProfile" id="Sqj-tq-JoC"/>
                             </connections>
                         </button>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-default" translatesAutoresizingMaskIntoConstraints="NO" id="EI5-yl-PQf">
