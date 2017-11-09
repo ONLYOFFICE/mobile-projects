@@ -1,0 +1,52 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+class ::Pod::Generator::Acknowledgements
+    def footnote_title
+        ""
+    end
+    def footnote_text
+        ""
+    end
+end
+
+target 'Projects' do
+    workspace 'ONLYOFFICE-Projects'
+    project 'Projects/Projects.xcodeproj'
+
+    pod 'Alamofire'
+    pod 'ObjectMapper'
+    # pod 'FileKit'
+    # pod 'SwiftyXMLParser'
+    pod 'SideMenu'
+    pod 'MBProgressHUD'
+    # pod 'MWPhotoBrowser'
+    # pod 'SDWebImage'
+    pod 'SwiftRater'
+    pod 'Siren'
+    pod 'PhoneNumberKit'
+    pod 'Kingfisher'
+    pod 'IQKeyboardManagerSwift'
+    pod 'FacebookCore'
+    pod 'FacebookLogin'
+    pod 'GoogleSignIn'
+    pod 'Firebase'
+    pod 'FirebaseMessaging'
+    pod 'FirebaseInstanceID'
+    pod 'FirebaseCrash'
+    pod 'KeychainSwift'
+    pod 'SkyFloatingLabelTextField', :git => 'https://github.com/Skyscanner/SkyFloatingLabelTextField.git'
+    # pod 'MGSwipeTableCell', :path => 'Vendor/MGSwipeTableCell/MGSwipeTableCell.podspec'
+end
+
+post_install do | installer |
+    require 'fileutils'
+    FileUtils.cp_r('Pods/Target Support Files/Pods-Projects/Pods-Projects-acknowledgements.plist', 'Projects/Settings.bundle/Acknowledgements.plist', :remove_destination => true)
+
+    # installer.pods_project.targets.each do |target|
+    #     target.build_configurations.each do |config|
+    #         config.build_settings['ENABLE_BITCODE'] = 'NO'
+    #     end
+    # end
+end

@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; normalTitle = "Projects"; ObjectID = "6Qj-We-QgQ"; */
+"6Qj-We-QgQ.normalTitle" = "Projects";
+
+/* Class = "UIButton"; normalTitle = "Settings"; ObjectID = "IMx-Ay-HBR"; */
+"IMx-Ay-HBR.normalTitle" = "Settings";
+
+/* Class = "UIButton"; normalTitle = "Connect to ONLYOFFICE"; ObjectID = "NoS-mV-I8S"; */
+"NoS-mV-I8S.normalTitle" = "Connect to ONLYOFFICE";
+
+/* Class = "UIButton"; normalTitle = "Milestones"; ObjectID = "XxP-C7-Ua1"; */
+"XxP-C7-Ua1.normalTitle" = "Milestones";
+
+/* Class = "UIButton"; normalTitle = "Discussions"; ObjectID = "bJX-Cr-fw5"; */
+"bJX-Cr-fw5.normalTitle" = "Discussions";
+
+/* Class = "UIButton"; normalTitle = "Tasks"; ObjectID = "bZz-n9-Hvs"; */
+"bZz-n9-Hvs.normalTitle" = "Tasks";
+
+/* Class = "UILabel"; text = "email"; ObjectID = "ddy-Mh-JgH"; Note = "Do not translate"; */
+"ddy-Mh-JgH.text" = "email";
+
+/* Class = "UIButton"; normalTitle = "Documents"; ObjectID = "edr-VI-9I9"; */
+"edr-VI-9I9.normalTitle" = "Documents";
+
+/* Class = "UIButton"; normalTitle = "Time Tracking"; ObjectID = "fS1-es-Kam"; */
+"fS1-es-Kam.normalTitle" = "Time Tracking";
+
+/* Class = "UILabel"; text = "User Name"; ObjectID = "iUd-jU-5km"; Note = "Do not translate"; */
+"iUd-jU-5km.text" = "User Name";

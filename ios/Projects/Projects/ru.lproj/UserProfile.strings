@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Logout"; ObjectID = "1Ig-GH-1JL"; */
+"1Ig-GH-1JL.text" = "Logout";
+
+/* Class = "UINavigationItem"; title = "Account"; ObjectID = "84N-fc-rDW"; */
+"84N-fc-rDW.title" = "Account";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "F8L-Tr-rgD"; Note = "Do not translate"; */
+"F8L-Tr-rgD.text" = "-";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "GHd-Ro-vu5"; Note = "Do not translate"; */
+"GHd-Ro-vu5.text" = "-";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "QgP-Pd-oPG"; */
+"QgP-Pd-oPG.text" = "Email";
+
+/* Class = "UILabel"; text = "Me"; ObjectID = "nrw-zh-lQe"; Note = "Do not translate"; */
+"nrw-zh-lQe.text" = "Me";
+
+/* Class = "UILabel"; text = "Portal"; ObjectID = "s1l-o7-4M3"; */
+"s1l-o7-4M3.text" = "Portal";

@@ -1,0 +1,90 @@
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "480-yN-krk"; */
+"480-yN-krk.title" = "Next";
+
+/* Class = "UILabel"; text = "Portal"; ObjectID = "4Jc-Wx-XKA"; */
+"4Jc-Wx-XKA.text" = "Portal";
+
+/* Class = "UITextField"; text = "+"; ObjectID = "71M-ca-p54"; */
+"71M-ca-p54.text" = "+";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "8nY-J1-jpx"; */
+"8nY-J1-jpx.title" = "Back";
+
+/* Class = "UINavigationItem"; title = "Country"; ObjectID = "AMq-rW-Dyi"; */
+"AMq-rW-Dyi.title" = "Country";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "Ajk-GB-UUw"; */
+"Ajk-GB-UUw.normalTitle" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "AkH-NO-QUh"; */
+"AkH-NO-QUh.normalTitle" = "Sign in";
+
+/* Class = "UITextField"; placeholder = "Code"; ObjectID = "Bjg-WS-f4x"; */
+"Bjg-WS-f4x.placeholder" = "Code";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "Ep7-i2-vhC"; */
+"Ep7-i2-vhC.text" = "Phone Number";
+
+/* Class = "UIButton"; normalTitle = "Create cloud"; ObjectID = "LzN-dX-4nI"; */
+"LzN-dX-4nI.normalTitle" = "Create cloud";
+
+/* Class = "UILabel"; text = "Connection to cloud"; ObjectID = "MPB-i4-ecH"; */
+"MPB-i4-ecH.text" = "Connection to cloud";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "MyB-hr-jL3"; */
+"MyB-hr-jL3.normalTitle" = "Forgot Password?";
+
+/* Class = "UINavigationItem"; title = "Accounts"; ObjectID = "YBB-1R-6zc"; */
+"YBB-1R-6zc.title" = "Accounts";
+
+/* Class = "UILabel"; text = "Select an account to sign in"; ObjectID = "YRX-gy-ays"; */
+"YRX-gy-ays.text" = "Select an account to sign in";
+
+/* Class = "UILabel"; text = "Connect to your ONLYOFFICE cloud to store files online and collaborate on documents in real time"; ObjectID = "ay0-n6-Vp4"; */
+"ay0-n6-Vp4.text" = "Connect to your ONLYOFFICE cloud to store files online and collaborate on documents in real time";
+
+/* Class = "UILabel"; text = "Account"; ObjectID = "eDH-IR-yky"; */
+"eDH-IR-yky.text" = "Account";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "fvy-TW-VaC"; */
+"fvy-TW-VaC.text" = "Detail";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hD1-w0-ODK"; */
+"hD1-w0-ODK.text" = "Title";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "hHi-Qf-hyq"; */
+"hHi-Qf-hyq.text" = "Address";
+
+/* Class = "UIButton"; normalTitle = "Select another account"; ObjectID = "jaZ-WI-Piz"; */
+"jaZ-WI-Piz.normalTitle" = "Select another account";
+
+/* Class = "UITextField"; text = "Country Code"; ObjectID = "kyk-wT-IcD"; */
+"kyk-wT-IcD.text" = "Country Code";
+
+/* Class = "UILabel"; text = "We have sent you an SMS with a code to the number %@"; ObjectID = "mLD-2H-g5W"; */
+"mLD-2H-g5W.text" = "We have sent you an SMS with a code to the number %@";
+
+/* Class = "UILabel"; text = "Enter a phone number that can be used to verify your identity"; ObjectID = "mSl-aI-Wf2"; */
+"mSl-aI-Wf2.text" = "Enter a phone number that can be used to verify your identity";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "rev-qX-ecd"; */
+"rev-qX-ecd.text" = "-";
+
+/* Class = "UILabel"; text = "Login via"; ObjectID = "s2R-uy-NLl"; */
+"s2R-uy-NLl.text" = "Login via";
+
+/* Class = "UITextField"; placeholder = "Your phone number"; ObjectID = "syw-9W-jdp"; */
+"syw-9W-jdp.placeholder" = "Your phone number";
+
+/* Class = "UILabel"; text = "Two-Factor\nAuthentication"; ObjectID = "uKb-OC-6YE"; */
+"uKb-OC-6YE.text" = "Two-Factor\nAuthentication";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "uQU-QX-4Hv"; */
+"uQU-QX-4Hv.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "Haven't received the code?"; ObjectID = "uQg-wq-3oE"; */
+"uQg-wq-3oE.text" = "Haven't received the code?";
+
+/* Class = "UINavigationItem"; title = "SSO Login"; ObjectID = "uee-X2-ZIJ"; */
+"uee-X2-ZIJ.title" = "SSO Login";
